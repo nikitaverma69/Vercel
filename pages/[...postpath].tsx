@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					'https://uforex.online/ + encodeURI(path as string)
+					'https://uforex.online/' + encodeURI(path as string)
 				}`,
 			},
 		};
